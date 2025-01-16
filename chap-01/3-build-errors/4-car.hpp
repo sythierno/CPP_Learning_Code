@@ -1,6 +1,6 @@
+#pragma once
 #include <string>
 
-struct Car
-{
+struct Car {
     std::string brand;
 };

@@ -1,14 +1,11 @@
-struct A
-{
+struct A {
     int a = 0;
-}
+};
 
-struct B
-{
+struct B {
     int b = 0;
-}
+};
 
-int add(A a, B b)
-{
+int add(A a, B b) {
     return a.a + b.b;
 }

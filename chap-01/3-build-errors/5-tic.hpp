@@ -1,9 +1,10 @@
 #pragma once
 
+struct Tac;
+
 #include "5-tac.hpp"
 
-struct Tic
-{
+struct Tic {
     // Invert value with tac.
     void swap(Tac& tac);
 
